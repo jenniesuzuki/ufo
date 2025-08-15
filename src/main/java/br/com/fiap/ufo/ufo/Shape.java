@@ -1,4 +1,8 @@
 package br.com.fiap.ufo.ufo;
 
-public class Shape {
+public enum Shape {
+    Disc,
+    Sphere,
+    Triangle,
+    Other
 }

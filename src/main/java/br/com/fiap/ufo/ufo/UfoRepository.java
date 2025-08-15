@@ -1,4 +1,6 @@
 package br.com.fiap.ufo.ufo;
 
-public interface UfoRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UfoRepository extends JpaRepository<Ufo, Long> {
 }
